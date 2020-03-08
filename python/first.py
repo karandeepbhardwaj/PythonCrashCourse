@@ -79,7 +79,7 @@
 #Program to create a pyramid
 
 # temp = 1
-# for line in range(12,0,-1):
+# for line in range(12,1,-1):
 #     for spaces in range(line,0,-1):
 #         print(" ", end=" ")
 #     for leftAstric in range(0,temp):
@@ -91,7 +91,7 @@
 
 # temp1 = 12
 # for newLine in range(0,12):
-#     for space in range(0,newLine):
+#     for space in range(0,newLine+1):
 #         print(" ", end=" ")
 #     for item in range(temp1,1,-1):
 #         print("*", end =" ")
@@ -101,6 +101,45 @@
 #     temp1 = temp1-1
 
 
-list = ["one", "two", "three", "four"]
+# list = ["one", "two", "three", "four"]
 
-print(list[:3])
+# print(list[:3])
+
+# #copying list in python
+
+# deepCopyOfList = list[:]
+
+# shallowCopyOfList = list
+
+# #difference can be seen when appending elements to list
+
+
+# #Condtional statements
+
+# if 1 < 2 or 1 <= 2 and "Five".lower() not in list :
+#     print("This works")
+# else :
+#     print("this doesnt work")
+
+available_toppings = ['mushrooms', 'olives', 'green peppers', 'pepperoni', 'pineapple', 'extra cheese']
+
+requested_toppings = ['mushrooms', 'french fries', 'extra cheese']
+
+if requested_toppings in available_toppings:
+    print("Pizza can be made")
+else:
+    print("Cannot be made")
+
+
+randomList =[]
+
+if randomList:
+    print("This is empty")
+else:
+    print("this does not work")
+
+#dictionary
+
+alien = {'color':'green', 'points':5}
+print(alien['color'])
+
