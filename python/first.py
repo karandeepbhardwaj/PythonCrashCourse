@@ -121,25 +121,60 @@
 # else :
 #     print("this doesnt work")
 
-available_toppings = ['mushrooms', 'olives', 'green peppers', 'pepperoni', 'pineapple', 'extra cheese']
+# available_toppings = ['mushrooms', 'olives', 'green peppers', 'pepperoni', 'pineapple', 'extra cheese']
 
-requested_toppings = ['mushrooms', 'french fries', 'extra cheese']
+# requested_toppings = ['mushrooms', 'french fries', 'extra cheese']
 
-if requested_toppings in available_toppings:
-    print("Pizza can be made")
-else:
-    print("Cannot be made")
+# if requested_toppings in available_toppings:
+#     print("Pizza can be made")
+# else:
+#     print("Cannot be made")
 
 
-randomList =[]
+# randomList =[]
 
-if randomList:
-    print("This is empty")
-else:
-    print("this does not work")
+# if randomList:
+#     print("This is empty")
+# else:
+#     print("this does not work")
 
-#dictionary
+# #dictionary
 
-alien = {'color':'green', 'points':5}
-print(alien['color'])
+# alien = {'color':'green', 'points':5}
+# print(alien['color'])
 
+# user = {
+#     'userName' : 'karandiip',
+#     'FirstName' : 'Karandeep',
+#     'LastName' : 'Bhardwaj'
+# }
+
+# for key, value in user.items():
+#     print(key)
+#     print(value)
+
+# data = {
+#     'Karandep' : 'Python',
+#     'Jaya' : 'Cloud',
+#     'Megha' : 'Autocad'
+# }
+
+# for name in data.keys():
+#     print(name + " likes to work in " + data[name])
+
+# order = {
+#     'crust' : 'thick',
+#     'topping' : ['mushroom', 'onion', 'pepper', 'chilli']
+# }
+
+# print("your order with " + order['crust'] + " is as following:")
+# for toppings in order['topping']:
+#     print(toppings)
+
+
+prompt = "if you tell who you are we can personalize the message for you"
+prompt += "\n what is your first name "
+
+name = int(input(prompt))
+
+print("Hi " + str(name+1) + "!")
