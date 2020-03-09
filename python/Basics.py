@@ -172,9 +172,44 @@
 #     print(toppings)
 
 
-prompt = "if you tell who you are we can personalize the message for you"
-prompt += "\n what is your first name "
+# prompt = "if you tell who you are we can personalize the message for you"
+# prompt += "\n what is your first name "
 
-name = int(input(prompt))
+# name = int(input(prompt))
 
-print("Hi " + str(name+1) + "!")
+# print("Hi " + str(name+1) + "!")
+
+#while loop fucntionality in Python
+
+# list = ['Karandeep', 'Megha', 'Jaya', 'Pardeep', 'Devika']
+# copyOfList = []
+
+# while list:
+#     copyOfList.append(list.pop())
+
+# for item in copyOfList:
+#     print(item)
+
+#polling program uses while loop and dictionary to store and iterate the values
+
+responses = {}
+
+pollActive = True
+
+while pollActive:
+
+    name = input("\nPLease Tell me your name?\n\t")
+    language = input("\nWhat Language do you like to work in?\n\t")
+
+    responses[name] = language
+
+    continueFurther = input("\nIs there any one else who would like to enter the details? (Yes/No)\n\t")
+
+    if(continueFurther.lower() == 'yes'):
+        continue
+    else:
+        pollActive = False
+        print("Thankyou for your response :)")
+
+for name, language in responses.items():
+    print("\n" + name.title() + " likes to work in " + language.title())
