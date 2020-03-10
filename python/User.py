@@ -6,6 +6,7 @@ class User():
         self.last_name = last_name
         self.gender = gender
         self.email = email
+        self.login_attempts = 0
 
     def describe_user(self):
         print(self.first_name)
@@ -16,6 +17,11 @@ class User():
     def greet_user(self):
         print("Hello "+ self.first_name.title())
 
+    def increment_login_attempts(self):
+        self.login_attempts += 1
+
+    def reset_login_attempts(self):
+        self.login_attempts = 0
 
 user1 = User('Karandeep', 'Bhardwaj', 'male', 'karandiip@gmail.com')
 user1 = User('Jaya', 'Sachdeva', 'female','jaya9.js@gmail.com')
