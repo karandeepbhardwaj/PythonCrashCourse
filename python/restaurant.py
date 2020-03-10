@@ -4,6 +4,7 @@ class Restaurant():
         
         self.restaurant_name = restaurant_name
         self.cuisine_type = cuisine_type
+        self.number_served = 0
 
     def describe_restaurant(self):
         print(self.restaurant_name)
