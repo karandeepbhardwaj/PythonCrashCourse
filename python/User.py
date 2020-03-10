@@ -30,3 +30,18 @@ user1 = User('Megha', 'Bhardwaj', 'female', 'megha@gmail.com')
 def print_for_user(o):
     o.describe_user()
 
+class Privileges():
+
+    def __init__(self, list):
+        self.privileges = list
+
+    def show_privileges(self):
+        for privilege in self.privileges:
+            print(privilege)
+
+class Admin(User):
+
+    def __init__(self, first_name, last_name, gender, email):
+        super().__init__(first_name, last_name, gender, email)
+        self.privileges = ['can add post', 'can delete post', 'can ban user', 'can reset the password for user']
+        self.privilege = Privileges(self.privileges)
