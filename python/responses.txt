@@ -1,0 +1,2 @@
+Response 1 I like to work in python Because I like how powerful it is and how much work it can do in such less lines of code
+Response 2 Java is nice but I am thinking to switch to python

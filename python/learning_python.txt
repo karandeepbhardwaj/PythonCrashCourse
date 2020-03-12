@@ -1,0 +1,4 @@
+Hello I have learned with book alot about the python language. First thing I learned was abput variables, although I have doubt that how python
+handles what kind of variable I am giving to it. The second thing I learned in python was conditional statements. It is similar to any other language just with the difference of syntax.
+I learned about different data structures. Dictionries, tuple and list. I also came to know that under the library collections there is data structure called ordered Dictionary.
+Which stores the values in order and remembers it. I learnt about the file handling and loops in the python. I learned inheritance and object oriented programming in python.
